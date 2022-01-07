@@ -10,6 +10,7 @@ app.geometry("600x600")
 
 def checkClasses():
     global c1
+
     global c2
     if check_C1.get() == 1 and check_C2.get() == 1 and check_C3.get() == 0:
         c1 = 0
